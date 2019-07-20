@@ -1,4 +1,4 @@
-#Image::Info::XS - Extract meta information from image files.
+# Image::Info::XS - Extract meta information from image files.
 Perl module for extracting various kind of meta information from image files.
 XS implementation of Image::Info. 
 
@@ -15,7 +15,7 @@ cpan -i Image::Info::XS
 ```
 
 
-##Examples
+## Examples
 ```perl
 use Image::Info::XS qw(image_info image_type);
 
@@ -35,7 +35,7 @@ if (!$type)
 die "No gif files allowed!" if $type eq 'GIF';
 ```
 
-##Methods
+## Methods
 
 image_info( $file )
 
@@ -45,7 +45,7 @@ image_type( $file )
 
 image_type( \$imgdata )
 
-##Supported Image Formats
+## Supported Image Formats
 
 * BMP
 * GIF
