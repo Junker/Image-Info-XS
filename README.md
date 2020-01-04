@@ -2,7 +2,7 @@
 Perl module for extracting various kind of meta information from image files.
 XS implementation of Image::Info. 
 
-##Installation
+## Installation
 ```shell
 perl Makefile.PL
 make
